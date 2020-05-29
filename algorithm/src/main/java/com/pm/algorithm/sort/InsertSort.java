@@ -1,4 +1,4 @@
-package com.pm.algorithm;
+package com.pm.algorithm.sort;
 
 import java.util.Arrays;
 
