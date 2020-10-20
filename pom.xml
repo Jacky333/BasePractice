@@ -12,6 +12,7 @@
         <module>algorithm</module>
         <module>spring</module>
         <module>designStyle</module>
+        <module>concurrent</module>
     </modules>
 
     <dependencies>
