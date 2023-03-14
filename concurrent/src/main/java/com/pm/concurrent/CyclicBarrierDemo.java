@@ -1,6 +1,5 @@
 package com.pm.concurrent;
 
-import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 /**
@@ -18,7 +17,7 @@ public class CyclicBarrierDemo {
                 System.out.println(Thread.currentThread().getName() + " 完成最后任务");
             }
         });
-        for(int i = 0; i < threadNum; i++) {
+        for(int i = 0; i < threadNum ; i++) {
             new TaskThread(barrier).start();
         }
     }
